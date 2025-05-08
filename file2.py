@@ -1,5 +1,5 @@
 def is_safe(assigment,row,col):
-  for r in range(n):
+  for r in range(row):
     c=assigment[r]
     if c==col or abs(c-col)==abs(r-row):
       return False
