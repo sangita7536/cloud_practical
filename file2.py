@@ -19,8 +19,8 @@ def print_solution(assigment,n):
   for row in range(n):
     line=""
     for col in range(n):
-      line += "Q" if assigment[row]=col else "."
-    print(line)
+      line += " Q" if assigment[row]=col else "."
+      print(line)
   print()
     
 def n_queen(n):
