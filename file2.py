@@ -20,7 +20,7 @@ def print_solution(assigment,n):
     line=""
     for col in range(n):
       if assigment[row]==col:
-        line=line+" Q"
+        line=line+"Q"
       else :
         line=line+"."      
     print(line)
